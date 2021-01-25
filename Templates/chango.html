@@ -1,0 +1,14 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eni mini chyango</title>
+
+</head>
+<body>
+{%for i in result%}
+<img src="{{i.img.url}}">
+{% endfor%}
+</body>
+</html>
